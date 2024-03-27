@@ -1,0 +1,65 @@
+import {StyleSheet} from 'react-native';
+export const styles = StyleSheet.create({
+  containerstyle: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+    paddingHorizontal: 20,
+  },
+  headingText: {
+    color: '#171717',
+    fontSize: 16,
+    fontFamily: 'Manrope-Medium',
+    marginBottom: 10,
+    marginTop: 2,
+  },
+  text1: {
+    fontSize: 10,
+    fontFamily: 'Manrope-Regular',
+    textAlign: 'center',
+    color: '#000',
+    marginBottom: 30,
+  },
+  footer: {
+    position: 'absolute',
+    left: 20,
+    right: 20,
+    bottom: 20,
+  },
+  placeholdertext: {
+    color: '#848484',
+    fontSize: 10,
+    fontFamily: 'Manrope-Regular',
+    marginLeft: 10,
+    maxWidth: '80%',
+  },
+  logoStyle: {width: 30, height: 30, marginRight: 5},
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  colorDot: {
+    width: 15,
+    height: 15,
+    borderRadius: 20,
+  },
+  whiteContainer: {
+    width: '100%',
+    paddingVertical: 10,
+    backgroundColor: '#fff',
+    borderRadius: 10,
+  },
+  UploadContainerStyle: {
+    width: '100%',
+    marginVertical: 5,
+    paddingHorizontal: 5,
+    height: 45,
+    borderRadius: 10,
+    flexDirection: 'row',
+    backgroundColor: '#FFF',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#E8E8E8',
+    marginBottom: 20,
+    alignContent: 'center',
+  },
+});

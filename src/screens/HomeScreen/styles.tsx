@@ -1,0 +1,77 @@
+import {Platform, StyleSheet} from 'react-native';
+export const styles = StyleSheet.create({
+  containerstyle: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+    paddingHorizontal: 20,
+    paddingTop: 10,
+  },
+
+  text1: {
+    color: '#171717',
+    fontSize: 14,
+    fontFamily: 'Manrope-SemiBold',
+    marginVertical: 3,
+  },
+
+  text2: {
+    color: '#171717',
+    fontSize: 10,
+    fontFamily: 'Manrope-Regular',
+    marginVertical: 3,
+  },
+  itemContainer: {
+    height: 100,
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: '#E8E8E8',
+    borderRadius: 8,
+    marginVertical: 10,
+    justifyContent: 'center',
+    paddingHorizontal: 20,
+  },
+  logoStyle: {width: 50, height: 50, marginRight: 20},
+  row: {flexDirection: 'row', alignItems: 'center'},
+  iconLogo: {width: 18, height: 18, tintColor: '#222222', marginRight: 7},
+  flatListButton: {
+    backgroundColor: '#D4FF02',
+    paddingHorizontal: 10,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 5,
+  },
+  gradientButton: {
+    height: Platform.OS == 'ios' ? 62 : 51.7,
+    justifyContent: 'center',
+    marginVertical: 10,
+    width: '100%',
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontFamily: 'Manrope-Bold',
+    marginRight: 7,
+    marginTop: -5,
+  },
+  filterContainer: {
+    width: '13%',
+    height: 40,
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: '#E8E8E8',
+    borderRadius: 8,
+    justifyContent: 'center',
+  },
+  searchbarContainer: {
+    width: '85%',
+    height: 40,
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: '#E8E8E8',
+    borderRadius: 8,
+  },
+});

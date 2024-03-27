@@ -1,0 +1,66 @@
+import {StyleSheet} from 'react-native';
+export const styles = StyleSheet.create({
+  containerstyle: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+    paddingHorizontal: 20,
+    paddingTop: '15%',
+  },
+  logoStyle: {
+    width: '60%',
+    height: 55,
+    alignSelf: 'center',
+  },
+  titletext: {
+    color: '#171717',
+    fontSize: 23,
+    fontFamily: 'Manrope-Bold',
+    marginTop: '10%',
+    textAlign: 'center',
+    marginBottom: '10%',
+  },
+  placeholdertext: {
+    color: '#848484',
+    fontSize: 10,
+    fontFamily: 'Manrope-Regular',
+    marginLeft: 10,
+  },
+  graytext: {
+    fontSize: 14,
+    fontFamily: 'Manrope-Medium',
+    textAlign: 'center',
+    color: '#848484',
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'center',
+  },
+  tabContainer: {
+    height: 30,
+    backgroundColor: '#FFF',
+    borderRadius: 10,
+    justifyContent: 'center',
+    paddingHorizontal: 1.5,
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 20,
+    borderWidth: 1,
+    borderColor: '#E8E8E8',
+    marginBottom: 40,
+  },
+  buttonContainer: {
+    height: 25,
+    backgroundColor: '#D4FF02',
+    minWidth: '50%',
+    borderRadius: 7,
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+  },
+  text1: {
+    color: '#171717',
+    fontSize: 12,
+    fontFamily: 'Manrope-SemiBold',
+  },
+});
